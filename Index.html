@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nawaraj — Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <link href="style.css" rel="stylesheet"/>
+  
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a href="#hero" class="nav-logo">YourName</a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-bg"></div>
+    <canvas id="particles"></canvas>
+    <div class="hero-grid">
+      <div>
+        <div class="hero-tag">Available for work</div>
+        <h1 class="hero-name">
+          Hello, I'm<br><span class="typewriter">Your Name</span>
+        </h1>
+        <p class="hero-subtitle">
+          A passionate [Your Role] who builds thoughtful digital experiences. I love turning ideas into clean, elegant solutions.
+        </p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-outline">Get in Touch</a>
+        </div>
+      </div>
+      <!-- Replace emoji with <img src="your-photo.jpg"> -->
+      <div class="avatar-placeholder">🧑‍💻</div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="about-grid">
+      <div class="reveal-left">
+        <p class="section-label">About Me</p>
+        <h2 class="section-title">Who I Am</h2>
+        <div class="about-text">
+          <p>I'm a [Your Role] based in [Your City]. I specialize in [your skills/focus] and love crafting experiences that are both beautiful and functional.</p>
+          <p>When I'm not working, you'll find me [your hobbies/interests]. I'm always looking for interesting problems to solve and collaborations to explore.</p>
+        </div>
+        <div class="skills-list">
+          <span class="skill-chip">Skill One</span>
+          <span class="skill-chip">Skill Two</span>
+          <span class="skill-chip">Skill Three</span>
+          <span class="skill-chip">Skill Four</span>
+          <span class="skill-chip">Skill Five</span>
+          <span class="skill-chip">Skill Six</span>
+        </div>
+      </div>
+      <div class="about-stats reveal-right">
+        <div class="stat">
+          <div class="stat-number" data-count="3">0</div>
+          <div class="stat-label">Years of Experience</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number" data-count="20">0</div>
+          <div class="stat-label">Projects Completed</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number" data-count="15">0</div>
+          <div class="stat-label">Happy Clients</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number">∞</div>
+          <div class="stat-label">Cups of Coffee</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="projects-inner">
+      <p class="section-label">My Work</p>
+      <h2 class="section-title">Featured Projects</h2>
+      <div class="projects-grid">
+
+        <div class="project-card reveal delay-1">
+          <div class="project-thumb">🚀</div>
+          <div class="project-body">
+            <p class="project-tag">Web App</p>
+            <h3 class="project-title">Project One</h3>
+            <p class="project-desc">A short description of what this project does, the problem it solves, and the tech used.</p>
+            <div class="project-links">
+              <a href="#" class="project-link">Live Demo →</a>
+              <a href="#" class="project-link">GitHub →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card reveal delay-2">
+          <div class="project-thumb">🎨</div>
+          <div class="project-body">
+            <p class="project-tag">Design</p>
+            <h3 class="project-title">Project Two</h3>
+            <p class="project-desc">A short description of what this project does, the problem it solves, and the tech used.</p>
+            <div class="project-links">
+              <a href="#" class="project-link">Live Demo →</a>
+              <a href="#" class="project-link">GitHub →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card reveal delay-3">
+          <div class="project-thumb">📱</div>
+          <div class="project-body">
+            <p class="project-tag">Mobile</p>
+            <h3 class="project-title">Project Three</h3>
+            <p class="project-desc">A short description of what this project does, the problem it solves, and the tech used.</p>
+            <div class="project-links">
+              <a href="#" class="project-link">Live Demo →</a>
+              <a href="#" class="project-link">GitHub →</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <p class="section-label">Career</p>
+    <h2 class="section-title">Experience</h2>
+    <div class="timeline">
+
+      <div class="timeline-item reveal">
+        <div class="timeline-date">2023 — Present</div>
+        <div>
+          <div class="timeline-role">Your Job Title</div>
+          <div class="timeline-company">Company Name</div>
+          <p class="timeline-desc">Describe your responsibilities and achievements. What did you build, improve, or lead? What impact did you have on the team or product?</p>
+        </div>
+      </div>
+
+      <div class="timeline-item reveal delay-1">
+        <div class="timeline-date">2021 — 2023</div>
+        <div>
+          <div class="timeline-role">Previous Job Title</div>
+          <div class="timeline-company">Previous Company</div>
+          <p class="timeline-desc">Describe your responsibilities and achievements. What did you build, improve, or lead? What impact did you have on the team or product?</p>
+        </div>
+      </div>
+
+      <div class="timeline-item reveal delay-2">
+        <div class="timeline-date">2019 — 2021</div>
+        <div>
+          <div class="timeline-role">Earlier Role</div>
+          <div class="timeline-company">Earlier Company</div>
+          <p class="timeline-desc">Describe your responsibilities and achievements. What did you build, improve, or lead? What impact did you have on the team or product?</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="contact-inner">
+      <p class="section-label">Say Hello</p>
+      <h2 class="section-title">Get In Touch</h2>
+      <p class="contact-text">
+        I'm currently open to new opportunities. Whether you have a project in mind, a question, or just want to connect — my inbox is always open.
+      </p>
+      <a href="/cdn-cgi/l/email-protection#7a03150f083a1f171b131654191517" class="btn btn-primary" style="display:inline-block; margin-bottom:2rem;">
+        <span class="__cf_email__" data-cfemail="9be2f4eee9dbfef6faf2f7b5f8f4f6">[email&#160;protected]</span>
+      </a>
+      <div class="contact-links">
+        <a href="#" class="contact-link">
+          <span>GitHub</span>
+        </a>
+        <a href="#" class="contact-link">
+          <span>LinkedIn</span>
+        </a>
+        <a href="#" class="contact-link">
+          <span>Twitter / X</span>
+        </a>
+        <a href="#" class="contact-link">
+          <span>Resume ↓</span>
+        </a>
+      </div>
+    </div>
+  </section>
+  <!-- FOOTER -->
+  <footer>
+    <p>Designed &amp; Built by <strong>Your Name</strong> &middot; 2025</p>
+  </footer>
+<script src="script.js"></script>
+</body>
+</html>
