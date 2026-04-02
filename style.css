@@ -140,7 +140,7 @@
     }
     /* Placeholder avatar */
     .avatar-placeholder {
-      width: 220px; height: 220px;
+      width: 420px; height: 420px;
       border-radius: 50%;
       background: linear-gradient(135deg, var(--surface) 0%, #222 100%);
       border: 2px solid var(--border);
