@@ -439,8 +439,8 @@
     .nav-links a:hover::after { width: 100%; }
 
     @media (max-width: 768px) {
-      .hero-grid { grid-template-columns: 1fr; }
-      .avatar-placeholder { width: 140px; height: 140px; font-size: 3rem; order: -1; }
+      .hero-grid { grid-template-columns: 1fr;  }
+      .avatar-placeholder { width: 340px; height: 340px; font-size: 3rem; order: -1; margin-top: 80px;  }
       .about-grid { grid-template-columns: 1fr; gap: 2.5rem; }
       .timeline-item { grid-template-columns: 1fr; gap: 0.4rem; }
       .timeline-date { font-size: 0.78rem; }
