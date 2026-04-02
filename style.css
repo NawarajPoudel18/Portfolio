@@ -189,7 +189,7 @@
       background: var(--surface);
       transition: all 0.2s;
     }
-    .skill-chip:hover { border-color: var(--accent2); color: var(--text); }
+    .skill-chip:hover {  border-color: var(--accent2); color: var(--text); cursor: pointer; }
     .about-stats {
       display: grid; grid-template-columns: 1fr 1fr;
       gap: 1.5rem;
