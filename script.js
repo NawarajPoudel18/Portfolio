@@ -16,6 +16,20 @@
         }
       });
     }, { threshold: 0.2 });
+
+
+    function sendMail() {
+  var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+
+  if (isMobile) {
+    window.location.href = "mailto:bictenawaraj@gmail.com";
+  } else {
+    window.open(
+      "https://mail.google.com/mail/?view=cm&fs=1&to=bictenawaraj@gmail.com",
+      "_blank"
+    );
+  }
+}
     if (chips.length) chipObs.observe(chips[0].parentElement);
 
     const counters = document.querySelectorAll('[data-count]');
