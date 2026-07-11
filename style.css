@@ -621,8 +621,8 @@ footer {
 .timeline-item::before {
   content: "";
   position: absolute;
-  left: 0;
-  top: 0.5rem;
+  left: -15px;
+  top: 0.6rem;
   width: 8px;
   height: 8px;
   border-radius: 50%;
